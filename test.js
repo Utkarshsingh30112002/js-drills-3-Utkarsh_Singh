@@ -82,9 +82,12 @@ let inventory = [
   // ==== Problem #6 ====
   // A buyer is interested in seeing only BMW and Audi cars within the inventory.  Execute a function and return an array that only contains BMW and Audi cars.  Once you have the BMWAndAudi array, use JSON.stringify() to show the results of the array in the console.
   
-  console.log(infoId33(inventory));
-  console.log(lastCar(inventory));
-  console.log(sortCarModels(inventory));
-  console.log(allTheYears(inventory));
-  console.log(olderThan3000(allTheYears(inventory)));
-  console.log(bmwAndAudi(inventory));
+  console.log("1"+infoId33(inventory));
+  console.log("2"+infoId33({}));
+  console.log("hjdheuei");
+  console.log("3"+infoId33());
+//   console.log(lastCar(inventory));
+//   console.log(sortCarModels(inventory));
+//   console.log(allTheYears(inventory));
+//   console.log(olderThan3000(allTheYears(inventory)));
+//   console.log(bmwAndAudi(inventory));
