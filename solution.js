@@ -1,5 +1,5 @@
 function validArgument(arr){
-    if(arr==undefined||arr.length==0){console.log( "please enter a valid argument");
+    if(arr==undefined||arr.length==0||!Array.isArray(arr)){console.log( "please enter a valid argument");
         return false;
     }
     for(let i=0;i<arr.length;i++){
